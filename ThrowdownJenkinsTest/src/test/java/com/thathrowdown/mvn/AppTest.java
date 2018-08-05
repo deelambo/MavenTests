@@ -17,4 +17,13 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+
+    @Test
+    public void goToHomepage(){
+
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://thathrowdown.com");
+
+    }
 }
